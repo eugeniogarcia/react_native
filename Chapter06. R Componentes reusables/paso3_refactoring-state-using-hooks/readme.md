@@ -1,0 +1,1 @@
+Partimos del proyecto creado en el paso 1. Convertimos el statefull component `MyFeature` en un functional component, usando el hook de estado.

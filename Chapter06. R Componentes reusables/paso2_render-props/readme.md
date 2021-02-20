@@ -1,0 +1,1 @@
+En este proyecto evolucionamos lo que se hizo en el paso 1. La evolución consiste en especificar los componentes `AddArticle` y `ArticleList` como funciones. De esta forma en lugar de tener la feature dependiente de estos dos componentes, lo que hace la feature es admitir dos funciones que devolveran el JSX para añadir y listar articulos 
