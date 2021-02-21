@@ -8,11 +8,11 @@ export default function ListContainer() {
     return api.fetchItems()
       .then(resp => resp.json())
       .then(({ items }) => {
-        setData(
+        setData((x)=>{x.push(
           items.map((value, i) => ({
             key: i.toString(),
             value
-          }))
+        })))}
         );
       });
   }
