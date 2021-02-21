@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Rendering Data Collections",
-    "slug": "rendering-data-collections-new",
+    "name": "Measuring Progress",
+    "slug": "measuring-progress-new",
     "privacy": "public",
     "platforms": [
       "ios",
@@ -24,10 +24,6 @@
     ],
     "ios": {
       "supportsTablet": true
-    },
-    "description": "",
-    "android": {
-      "package": "com.egsmartin.renderingdatacollectionsnew"
     }
   }
 }
