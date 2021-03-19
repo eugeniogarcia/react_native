@@ -54,7 +54,7 @@ export function get(key) {
       AsyncStorage.getAllKeys().then(
         keys =>
           AsyncStorage.multiGet(keys).then(
-            //Devuelve una colección con los items
+            //Retorna un objeto que tiene como key values las entradas del mapa
             items => resolve(Object.fromEntries(items)),
             err => reject(err)
           ),

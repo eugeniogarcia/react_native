@@ -116,11 +116,3 @@ return value => {
 ```
 
 Con el hook `useEffect` recuperara los datos y actualizará el estado.
-
-
-
-# Dudas
-
-Object.Keys
-Objets.fromEntries
-multiGet
